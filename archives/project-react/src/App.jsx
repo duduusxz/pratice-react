@@ -1,9 +1,6 @@
 import './App.css'
-import OlaMundo from './components/OlaMundo'
-import SayMyName from './components/SayMyName'
-import Pessoa from './components/Pessoa'
-import Frase from './components/Frase'
-import List from './components/List'
+import Evento from './components/Eventos'
+import Form from './components/Form'
 
 function App() {
 
@@ -11,12 +8,10 @@ function App() {
 
   return (
     <div className="App">
-      <OlaMundo />
-      <Frase />
-      <SayMyName nome='Dom Pedro' />
-      <SayMyName nome={nome} />
-      <Pessoa nome='Miguel' idade='22' profissao='programador' foto='https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSMfPVWnPAr3h5M9quC_q8wGg8WbonDm_ljUrcDE-BJKBBg3evm1p8LEA8Z8_PouhDtvdaeimGWUz1vxVo1n0P7x1JPCAqp9524vMtEm39J'/>
-      <List />
+      <h1>Testando eventos</h1>
+      <Evento numero="1" />
+      <Evento numero="2" />
+      <Form />
     </div>
   );
 }

@@ -8,7 +8,7 @@ function List(){
                 <Item marca="Mustang" ano_lancamento={1980}/>
                 <Item marca="Ford" ano_lancamento={1980}/>
                 <Item marca="Chevrolet"/>
-                <Item marca="Renault" ano_lancamento="1999"/>
+                <Item />
             </ul>
         </>
     )
