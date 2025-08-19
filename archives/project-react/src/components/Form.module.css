@@ -1,0 +1,67 @@
+.containerCadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 50px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.containerCadastro h1{
+    color: aliceblue;
+}
+
+.containerCadastro input{
+    background-color: #e6e6e6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.containerCadastro input:focus{
+    outline: none;
+    border: 2px solid rgb(0, 85, 255);
+}
+
+.containerCadastro button{
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 5px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.containerCadastro button:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.formsCadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.conjuntoInput{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 5px;
+}
+
+.mensagem{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    color: black;
+}
