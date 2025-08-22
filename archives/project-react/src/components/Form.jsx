@@ -14,7 +14,7 @@ function Form(){
 
     function exibirUser(e){ //função para exibir mensagem na tela do user
         e.preventDefault() //impede o reload da página no navegador
-        setMensagem(`Olá ${name}, sua senha é ${passowrd} e email é ${`email`}`) //mensagem exibida na tela ao receber o ato do evento
+        setMensagem(`Olá ${name}, sua senha é ${passowrd}`) //mensagem exibida na tela ao receber o ato do evento
     }
 
     return (

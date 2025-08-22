@@ -9,8 +9,7 @@ function App() { //cria a função app
   return (
     <div className="App"> {/*criando uma class para a div, para conseguir mexer com ela no css*/}
       <h1>Testando eventos</h1>
-      <Evento numero="1" /> {/*puxando a função evento atribuindo um número dentro dele*/}
-      <Evento numero="2" />
+      <Evento /> {/*puxando a função evento atribuindo um número dentro dele*/}
       <Form /> {/*puxando a função From que faz um "cadastro" do usuário*/}
     </div>
   );
