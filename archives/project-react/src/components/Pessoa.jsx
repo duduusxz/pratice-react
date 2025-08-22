@@ -1,4 +1,4 @@
-function Pessoa({nome, idade, profissao, foto}){
+function Pessoa({nome, idade, profissao, foto}){ //cria função com várias props
     return <div>
         <img src={foto} alt={nome} />
         <h2>Nome: {nome} </h2>
